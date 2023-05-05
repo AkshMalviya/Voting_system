@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admin_main_page</class>
+ <widget class="QMainWindow" name="Admin_main_page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>588</width>
+    <height>437</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Comic Sans MS</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>User Page</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Myicon.png</normaloff>Myicon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#c5d5cb;</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>23</width>
+    <height>23</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <widget class="QPushButton" name="Creating_User">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>130</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Create User</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Creating_Campaign">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>210</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Create Campaign</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>What you would like to do?</string>
+    </property>
+   </widget>
+   <widget class="QOpenGLWidget" name="openGLWidget">
+    <property name="geometry">
+     <rect>
+      <x>-300</x>
+      <y>330</y>
+      <width>300</width>
+      <height>200</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="logoutButton">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>0</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>logout.png</normaloff>logout.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Check_Result">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>290</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Check Result</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Admin_label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>588</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

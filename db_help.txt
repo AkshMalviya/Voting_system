@@ -1,0 +1,33 @@
+import mysql.connector
+from mysql.connector import Error
+
+db_name = "voter"
+def connecting_db(host_name , user_name , user_password , db_name):
+    connection = None
+    try:
+        connection = mysql.connector.connect(
+            host = host_name,
+            user = user_name,
+            passwd = user_password,
+            database = db_name
+        )
+        print("voter's Database is connected succesfully ")
+    except Error as err:
+        print(f"Error : {err}")
+    return connection       
+connection = connecting_db("localhost","root","root",db_name)  
+def execute_query(connection,query):
+    cursor = connection.cursor()
+    try:
+        cursor.execute(query)
+        connection.commit()
+        print("Query executed successfully")
+    except Error as err:
+        print(f"Error:{err}")  
+# usr should be taken from pyqt
+#pwd same
+def creating_new_user(usr,pwd):
+    creating_new_user = f"""
+    insert into user values ({userID} , {password} );""" 
+    execute_query(connection,creating_new_user)
+      
